@@ -14,4 +14,9 @@ class Shop extends Model
     {
         $this->belongsTo(User::class);
     }
+
+    public function shop_typologies(){
+
+        return $this->belongsToMany(ShopTypologies::class);
+    }
 }
