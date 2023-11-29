@@ -16,6 +16,11 @@ class Product extends Model
 
     public function productTypologies()
     {
-        return $this->hasMany(ProductTypologies());
+        return $this->hasMany(ProductTypologies::class);
+    }
+
+    public function orders()
+    {
+        return $this->belongsToMany(Order::class);
     }
 }
