@@ -13,7 +13,6 @@ class ShopController extends Controller
      */
     public function index()
     {
-        //
     }
 
     /**
