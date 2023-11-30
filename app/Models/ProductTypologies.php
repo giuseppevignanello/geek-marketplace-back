@@ -9,6 +9,8 @@ class ProductTypologies extends Model
 {
     use HasFactory;
 
+    protected $fillable = ['name'];
+
     public function productos()
     {
         return $this->belongsToMany(Product::class);

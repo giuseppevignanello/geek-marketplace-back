@@ -9,7 +9,9 @@ class ShopTypologies extends Model
 {
     use HasFactory;
 
-    public function shops(){
+    protected $fillable = ['name'];
+    public function shops()
+    {
         return $this->belongsToMany(Shop::class);
     }
 }
