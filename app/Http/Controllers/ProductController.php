@@ -13,7 +13,8 @@ class ProductController extends Controller
      */
     public function index()
     {
-        return csrf_token();
+        $products = Product::all();
+        return view('products.index', compact('products'));
     }
 
     /**
@@ -43,9 +44,10 @@ class ProductController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Product $product)
+    public function show($id)
     {
-        //
+        $product = Product::findOrFail($id);
+        return view('products.show', compact('product'));
     }
 
     /**
