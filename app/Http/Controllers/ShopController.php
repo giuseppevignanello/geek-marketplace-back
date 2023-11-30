@@ -20,7 +20,7 @@ class ShopController extends Controller
      */
     public function create()
     {
-        //
+        return view('shop.create');
     }
 
     /**
@@ -28,7 +28,14 @@ class ShopController extends Controller
      */
     public function store(StoreShopRequest $request)
     {
-        //
+
+        //adding user id
+
+        $val_data = $request->validated();
+
+        Shop::create($val_data);
+
+        return to_route('shops.index')->with('message', 'Shop created successfully');
     }
 
     /**
