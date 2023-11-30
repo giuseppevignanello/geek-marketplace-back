@@ -20,7 +20,7 @@ class ShopController extends Controller
      */
     public function create()
     {
-        //
+        return view('shop.create');
     }
 
     /**
@@ -28,7 +28,14 @@ class ShopController extends Controller
      */
     public function store(StoreShopRequest $request)
     {
-        //
+
+        //adding user id
+
+        $val_data = $request->validated();
+
+        Shop::create($val_data);
+
+        return to_route('shops.index')->with('message', 'Shop created successfully');
     }
 
     /**
@@ -44,7 +51,7 @@ class ShopController extends Controller
      */
     public function edit(Shop $shop)
     {
-        //
+        return view('shop.edit', compact('shop');
     }
 
     /**
@@ -52,7 +59,11 @@ class ShopController extends Controller
      */
     public function update(UpdateShopRequest $request, Shop $shop)
     {
-        //
+        $val_data = $request->validated();
+
+        $shop->update($val_data);
+
+        return to_route('shops.index')->with('message', 'Shop updated successfully');
     }
 
     /**
@@ -60,6 +71,7 @@ class ShopController extends Controller
      */
     public function destroy(Shop $shop)
     {
-        //
+        $shop->delete();
+        return to_route('shops.index')->with('message', 'Shop deleted successfully');
     }
 }
