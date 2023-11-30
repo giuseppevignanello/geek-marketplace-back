@@ -13,6 +13,10 @@ class ShopController extends Controller
      */
     public function index()
     {
+
+        //add auth
+        $shop = Shop::first();
+        return view('shop.index', compact('shop'));
     }
 
     /**
@@ -36,7 +40,6 @@ class ShopController extends Controller
      */
     public function show(Shop $shop)
     {
-        //
     }
 
     /**
