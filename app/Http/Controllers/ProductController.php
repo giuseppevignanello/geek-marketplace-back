@@ -13,7 +13,7 @@ class ProductController extends Controller
      */
     public function index()
     {
-        //
+        return csrf_token();
     }
 
     /**
@@ -29,14 +29,15 @@ class ProductController extends Controller
      */
     public function store(StoreProductRequest $request)
     {
-        $form_data = $request->all();
+         $form_data = $request->all();
 
-        $products = new Product();
-        $products->fill($form_data);
+         $product = new Product();
+         $product->fill($form_data);
 
-        $products->save();
+         $product->save();
 
-        return redirect()->route('products.show', $products->id);
+         return redirect()->route('products.show', $product->id);
+       
     }
 
     /**
