@@ -51,7 +51,7 @@ class ShopController extends Controller
      */
     public function edit(Shop $shop)
     {
-        //
+        return view('shop.edit');
     }
 
     /**
@@ -59,7 +59,11 @@ class ShopController extends Controller
      */
     public function update(UpdateShopRequest $request, Shop $shop)
     {
-        //
+        $val_data = $request->validated();
+
+        $shop->update($val_data);
+
+        return to_route('shops.index')->with('message', 'Shop updated successfully');
     }
 
     /**
@@ -67,6 +71,7 @@ class ShopController extends Controller
      */
     public function destroy(Shop $shop)
     {
-        //
+        $shop->delete();
+        return to_route('shops.index')->with('message', 'Shop deleted successfully');
     }
 }

@@ -11,7 +11,7 @@ class UpdateShopRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -22,7 +22,12 @@ class UpdateShopRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            'name' => 'required|unique:shops|min:3|max:256',
+            'address' => 'nullable|min:3|max:256',
+            'piva' => 'max:11',
+            'photo' => 'nullable',
+            'phone' => 'nullable',
+            'email' => 'nullable'
         ];
     }
 }
