@@ -54,7 +54,7 @@ class ShopController extends Controller
      */
     public function edit(Shop $shop)
     {
-        return view('shop.edit', compact('shop');
+        return view('shop.edit', compact('shop'));
     }
 
     /**
