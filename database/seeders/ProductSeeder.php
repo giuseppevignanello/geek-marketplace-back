@@ -23,7 +23,8 @@ class ProductSeeder extends Seeder
             $newProduct->price = $product['price'];
             $newProduct->is_visible = $product['is_visible'];
             $newProduct->productor = $product['productor'];
-            // $newProduct->photo = $product['photo'];
+            $newProduct->photo = $product['photo'];
+            $newProduct->shop_id = $product['shop_id'];
             $newProduct->save();
 
             // foreach($product['productTypologies'] as $typologyName){

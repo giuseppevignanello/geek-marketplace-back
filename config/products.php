@@ -1,12 +1,103 @@
 <?php
-return[
+return [
     [
         "name" => "Goku",
+        "shop_id" => 1,
         "description" => "action figure bellissima",
         "price" => 10.40,
         "is_visible" => 1,
         "productor" => "Konami",
-        "productTypologies" => ["Manga", "Card", "Fashion"],
-        // "photo" => "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBcWFRgWFBQZGBgaGBgcHBwZGBgdHBodHRoaGRwcHB4kIy4lHCUrIRgYJjgmKy8xNTU1HCQ7QDs0Py40NTEBDAwMEA8QHxISHzcrJCxAPzs4MT0xPzU9PT8/NjQxNDQxOjQ0NDQ0NjQ0NDQ0NDQ0NDQ0MTQxNDQ0NDQ0NDQ0NP/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAABAUGBwECAwj/xABBEAACAQIEAwUFBgIJBAMAAAABAgADEQQSITEFQVEGImFxgRMykaGxB1JywdHwFEIzYoKSk7LS4fEWI3PCJERU/8QAGQEBAAMBAQAAAAAAAAAAAAAAAAECBAMF/8QAJhEBAQACAQQCAQQDAAAAAAAAAAECEQMEEiExQVFhEyIycSOBkf/aAAwDAQACEQMRAD8A3NERAREQEREBERAREQEROjuACSbAQOmIrqilmNgJzTe4B6gH4zGuJY01GsPdGw6+JmQ4nELTW58gOvhMvH1MzuV+J8rXGzSRPKpWClQTYsbDxNr/AJTHcHx2zVGfMR3QoGw3J3PiPhK/G8UZ6isdMpBVeljf1JtK5dZhMZZ7+k9l2zeczyoVQyqw2IBHrrPSa5dqOYiJIREQEREBERAREQEREBERAREQEREBERARE4gcXlZxZie6NBa58egkOpValUYLsWJsdtdfTzns2KLalcpA11vPO5upxzwuN8V1xxssqrWltbf/AGB/P5TrxDGlruToNFH7+PqOs4qi6kdbD0J1+REiezL2HLU+Qnk99kuPw0dvyq6eLygruSbn1/e0lAaEncb3+n+/1nONqJRByC77ZjqR1t0/4kOlxFAoXdtzfqdTp6850xls3pFjMuy+JvQJYiwdgCSBYWB+pMnpxWmzimjZ2N75dQoHMnaa+OKzDTRfDbx/5289pm3ZvhvsqeZh3msTfdRyX8z4nwnp9NzZ56xk8T3WfPGTyvIiJ6DmREQEREBERAREQEREBERAREQEREBERAREQKnipKWcKCNm3uOhvykBKoNrXFxsf34S+rVVUd5lA8SB9ZjldwSxUgDMwuLWCix0+M8jrsJjl3S+/h347uaeGJPJD5n97/l8hDr1mHcBsTy6+fSVfFuOkdygPC/P06Ttga4oUc9UguxJ6aaWFzy3PrMN47qVpmN1uqrjiVFQtkY30BA03Nz9dfLwlTwvBOdTtzvsB49fpLnB8bNVKrAdwGy3G9u6TbxlKMU72TZBytYHz6/ObeOZTG41Sy1kWDxADAoA4Qgm+oZhtfwB9PnNjcFFT2YasxLMb2sBlBtZbDyv6zWfCsNXqkJRUm1tRoqdCToF+F+k2LwPhLURerWeq5GpZ2KjwUE/M6+U09LjlLvXhw5V1ERN7iREQEREBERAREQEREBERAREQEREDiDEi8QYim5G+VrfCRbqbTJu6V9bjypVKOCBewbfUbgjf4Xnnx3tNRw1IVSc9zZVUi7H8gPzE19x/HN7QDvEqARmB3PieQ11kvhdQOh9oL5b3Y7TDj1OU9zcbL0s14rrQ7WDFMQ3dbWyki1uiyetUtRIXYk2/DoT9PnNX4am9XFt/Co7orsB7NGYAagC6iwBOg8JsyjhKtGmiVlCuVvobjyv1GxHXwsZTquHd7p68Vbiyx7e2+5UbE4Pvo6oPdUEA79bfOQe0OHd9WJA00ygADpub8uk5xHG1RyjnLlW6sSbHmR6923iDK7GcTNVMwYZCTY+RI+oMp+nljZbPfquuPbldb9KatWYDIGyoL6DQE3vrzPOW/Zvhxr3YEqgOXN94gD3Rv010kfC4LOBpc/72mb0cGtCmqoLW38TzMnk5JMe2e18sZ6W3D+KtQUJlQqvRQp+Wl/SXfCuMJXuFuGGtjzG1wecwnH1rKSNza3nI3B+JhMRRAItmCk8jm7rHy1vLcHNlLJbuM3Lw46tnttSJxOZ6TCREQEREBERAREQEREBERAREQEREBOjKCLEXB6zvEDE8T2PSpVZmbuH+Vbg77A37osANN/CSf8ApDDFSrozqTcqzvb5EX9bzIonOcWM9Re8mVmtvDC4ZKaKlNVRFACqoAAA0AAE5r0EcZXVWHRgCPgZ7SLisalO2Y2vtLZWSbqslt8NefajwJFp03ooiEsaZyqBcvbKTbexBlbieziJSVKYIC33JN7m5Jv4m8zDj+No4qi9ENlqDvU81rZl1U36Hb1Mo14iKtJXF1NyrKRqrKbMD+9rTL1PJ3YztviNfTS45Xunlxwbg4poCx1t8NbyegzoSWBW9hbw31nhj+LU6QAd7E+BNvE22E93xChAC1xvfz1mHLDL+WU9tPf3VXlFuQwuB1kKvgUyl0UKRfYWBHl18ZNzoxOVr9ReV3EsRamQDa1r+QIk4ymVljZnAuIe3oLUNgTcMBsCDY/r6yymJfZ5m9g5O3tDb+6t5ls9Xju8Za8zOaysjmIidFSIiAiIgIiICIiAiIgIiICIiAiIgIiIHhiXspItcA2vtea14txZqrOgZXa4UXJBHU2057W6bTZWJoh1Km4uLXG48RKMdkMNYXQlxf8A7mYhyTclmIsGOuxFthawmfm4ss749O3DyY4bt9tWUq9R6ujlTYKxOtwL7DYbHwlhxviVMoy2ykgANf4XtMrxXZBKN6gYuCdVaw8BtuNtJrPtQ5qVClJLlSScoNzqAcqgcsw1P/OfDC/qSXxprucyxtnlVvxO9ySSb8ze8yPhPagimFZWdlJF7X0vp8phh4VVs5ClgvvFbkDnqdr87byVg0ygHvAnc+7rpYWOvMT0ObGcs7deYy8V7b3XxGU4njwc3yVARswHu/vpIuKx2anZLszMpY2sLbn6CUlfiOU5Nc3MnUD4fnPE40lT3xY3F+cz49Ld+vX5dcuWN+9gMQj4KkybHNf8Qdgb/I+REyWa1+xdv/j11zXAqqQvIXQC4Pjl+U2VNHbJ4jJbvy5iIhBERAREQEREBERAREQEREBERAREQEROICeGJxaU1zVKiovV2VR8SbSo7TdpaeEplmIZ9lUEXv1PQTQ/EsU9VmqOzMSdASWYknRQTc7mXxx3N/A2z2g49gKhu/ELKLXWkC9+ozKpAvMF4z2hw61WGBp3zC11p5SFGubUl3PO7ZR4SHh+Aqq3rsCct8i6AE7gndrafOe616aK6UlVQRuBvcbk8+Z1mW5cdy1hN2t2PByY491upHhhOOIi5ajN3mBFxoobyGnM+sgY7HvWe64UOq3yswIuBz5DexnvwDCB2zkcja/IEgD5LMiqKoG04cvJjhyWyeWvi48s+Od1Ypw6qtM561KzOQCQbhR97fTy8JExjYdnyJTbUnv+J2IHMTKqlBT/AC3ldhsLbFYc2ykV6XzqLb52k8fJM8t+d/2c3FccdT1Pw2H9lnCqlKma16ZpYhUJALZlZLpfbKb9645WBubm2w5EwGDSihVBZczta+xd2drdBdjYctpKmyTUePld3btERJQREQEREBERAREQEREBERAREQEREDiYX2n4xXouyg2XLmUopLEdOZvfp4TMzNW9tuMWq62uC66dFNh+cz89upJ7aOmwmWfn0xXimFr1XLMhy35suvxMpsI3/fu4yimLgHS7EWX6k+gkrHcZdtmtKykDUcL11J6dTeXxz5Mse2ySfhpy4ePDLu3vSxxOKZ7m5Cj5/vrK3OCGBYqCDZRuelzyBnPEcQAQqjuj9j9ZWu5JnS4Tjnbj/wBc7yXk85f6jN+GKFOQa7X8Tbur4AKAT6dZb1KRbnYeG8oOzB7gqEFmZiii42UDMxvtso+HWZHTphFNyMxuzePU/OeVzT91j0sMt4yx5+wAFpH4Nh1GMoK7AL7ZWF+oa6j+9kt0vOuFx5dmshCrcFjbU6WsPK5lTx17AOrEFWFrG1tbAg8tdfSTwzLHKSo5bMsLH0HOZW8AxZq4ahULBi9KmxI5sVBb53llPVeCREQEREBERAREQEREBERAREQEREBERAgcWxHs6LuDYhTY6b7DfxmkO0rBnBY6sWYnc6m9zz8fWbl7S4bPQY3PcBawtZrC+vXS8012gwWYU8SpY5wwYFbKCrFRlNu8LW1udT6TNyS3OfUbuluMxv3ax/EogGjOf7NhK9iOWvpLB0S/fzL5Lv63gquUsq2Gy33J5ky8unbLHu+lr2H7N08dVanUrNTKrmUKoJYA2bUnukXHI/KZF2j7FYXCPSRQ75ldmNRr3IZQNFAHM8pW/ZPhWfHoytlCI7N/WBGTKPV1PpMz+0x7VqH/AI6n+ZJ1YeS6y1GI8EpIqK3O72HId4cv7N/Wd6FN6710Vsu13YEaCwyjw3+N55cEoHLnba5sOtifzJkyjjVU1czkZmAA5KLL6db+k87P+d09LC/4p/TyxWDNOmSlQNluzaWJ6kSJ2QxqjE0CVzq9TIQwzXVyaZJB5d4m3QT04ljUy5PaKS2nu6keebT4Tv2LqijVpVaisVQvYWOgbMAwGx3v+ctx/tm8vtSy3GyfTbnZrh5oYZKTAKVz91TcKGdmAHkGA9JbSBw7ilKuCaThrbjUEeYOsnzfLLNx5dll8uYiJKCIiAiIgIiICIiAiIgIiICIiAiIgedRAwIIuCCCOoOhEoe0fZpMTRWkrezKCyEAELoBYjmNBzG0yGJFkvtOOVl3Hz1jOEOjMKr01QMRmBNzY20B1F7bGU+LrhzlQabL5dfzm7O33ZqnXw1SolJPboMwfIuZgvvKTa57t7DqBNDtVZTpYSmPFfbbOplmr4Zt9luK9nxFUJsKlN0HiQA4/wAh+Myv7TlvXwwHNKvp3kuZq/gnG/YYqliGBIpuCQDrlsVa3oxmz/tMrAVKB3vRqAHpd6evwv8AGWzlxx/Lj+3Pln1WNe2ComTQageQX9mQKihwFDWZQTfQ6kbEc9Tt4TwxVayIB/K31FpCevlbNfe+b8phmNvn5ete3Hx8JdLg4R2eoQygXAUnU9DcbeHjPfhuPes9OiiBAzrTDC4RSdQCTpe2y3uZX1eMZhlB1PWbK+yLDg4esxAINcCx1F1VXBt1uw18B0nTDjuV/ez83JOPHeDK+DdnqVDKyreoqZWe7Ate2YkXI1Kg25S6iJrkk8R5Vtt3XMRElBERAREQEREBERAREQEREBERAREQERECNi6GdHQkjMrLcGxFwRcHkdZ8x8TwzI7o1rq7LcbGxtcT6L7V8QNDC1HF75cosL2LHLf0vNFYfg2IxlTLRou1zqxBCr4sx0l8Pm2pl+ELs92bq42qKVJdP53Puop3LH6DnNmfaPTyPhVvmy0XW7c7GmNfOZl2T7PrgqC0lsW3dubOdz5DYCYl9qf9Nh/wVP8AMkpldpl8tbYk2UA6A+7c8pCak7+6L662t8+kn8RcZFOmg59RKjF90ra4JRWNjtm1t12tzlcuLt12/LVh1O5rICZSeZ2/Wbs+yXAsmDLvoKrl1Gt8oAQE+ZUkdRYzXvZXsLWxlKnXBQUmq5WBJDFFYB2XS33lt1E33TpgAACwAAA6AbCJjq+XLl5JZqPSIiWcCIiAiIgIiICIiAiIgIiICIiAiIgIiRMVxCnT/pKir4MwB+G8CVEoMR2twy7OzfhU/VrCV9XtzTHu0XP4iq/S8J0y8zgC20wd+3Tn3aCjzcn8hI7dtq/JKY9G/wBUGmwZrX7Uv6bD/wDjq/5knse2WI6Ux/ZP+qYz2n4s+IemamW6o4GUW3Zb/SRSRiXEqV6a3JW5OtrjfT53kTDYZsTiUT3PaVES/wB3Mypz6S7xhDvSpjRe4T5Bc5/OVvZ9yMVTdQCVqB9du6c+vhcTr26s8/C0ss9Po/AYJKNNKVMWRFCqOgH1PjJUwFO2tbnTQ+QYf+0kU+3DfzUB6OR/6zmrpm0TFKfban/NScfhKt9SJOodqcM27lfxKw+YuPnCF9Ej4fFo4ujq/wCFgfpJEBERAREQEREBERAREQEREBERA11x/tJVd2RGKIrMvdNmbKSCS2/LYfOY5n5mdO1KsmIqbo2diRyIJJBI53FtZSji5HvL6qfyP6yVl7nE4zSpp8WQ7kjzB/LSSExyHZ1+IvCU8N4ReRRiBOwxECTK/iVMllIUkBSNBfmJI/iY/iZApzhHIDhGuiOLW1JtZLDf+a39mSuCcHNJcz2DsNdjlHS/1k7+JnH8SI8o0lBbTm8h/wAVODioSmFp0LiQnxoG5A8yBI1TiiD+Yelz9JItVrEG6kgjmDYy94T2vq0yBUY1E5hveA5kNufW/pMFbil/dUnzNh+Zk3hhLuubvG4soGhN9NN2MaQ3wpuLidp50xZQD0H0npIVIiICIiAiIgIiICIiAiIgVvFuDUcQuWtTDdDqGHkw1Ewfin2Wq1zQxDL/AFaihh/eWxHwM2VEDRmO+znHJfKiVB/Udfo+WUeJ7PYun7+FrDxFN2HxAIn0dEJ2+YmLIbNdT0YWPwM9FxLcm+c+l2UHQgEeMi1uF0G9+hTb8VNT9RBt86fxT/eM4bFv98/GfQbdm8Id8JQ/wk/SeTdlMEf/AKdD/DT9INvn8Yt/vn4zsMU/3z8Zv3/pPBf/AI6H+Gv6TuOy+DG2Dof4afpBt8/nFP8AePxnhUxHVvnPo2nwDCr7uFoDypU/0kyjhUX3EVfwqB9INvm7D8Orv/R0Kr32yU3YfIS5wfYbH1NsMyDq7InyJzfKb+iDbU/DPsurGxr4hEHMUwznyucoHwMzvgXZbD4XVELP99zmb00AX0Al9EIIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiIH/2Q==",
+        "photo" => "https://picsum.photos/200/300"
+    ],
+    [
+        "name" => "Batman: Il Cavaliere Oscuro",
+        "shop_id" => 1,
+        "description" => "Segui le avventure di Batman mentre combatte il crimine nella città di Gotham.",
+        "price" => 24.99,
+        "is_visible" => 1,
+        "productor" => "DC Comics",
+        "photo" => "https://picsum.photos/200/300"
+    ],
+    [
+        "name" => "Spider-Man: Un Nuovo Inizio",
+        "shop_id" => 1,
+        "description" => "Peter Parker affronta nuove sfide e nemici nella sua lotta contro il crimine a New York.",
+        "price" => 18.75,
+        "is_visible" => 0,
+        "productor" => "Marvel Comics",
+        "photo" => "https://picsum.photos/200/300"
+    ],
+    [
+        "name" => "X-Men: Destino Mutante",
+        "shop_id" => 1,
+        "description" => "Gli X-Men affrontano minacce mutanti mentre cercano di proteggere un mondo che li teme.",
+        "price" => 32.50,
+        "is_visible" => 1,
+        "productor" => "Marvel Comics",
+        "photo" => "https://picsum.photos/200/300"
+    ],
+    [
+        "name" => "Wonder Woman: Guerriera Amazon",
+        "shop_id" => 1,
+        "description" => "Diana, principessa delle Amazzoni, lotta per la giustizia nel mondo degli uomini.",
+        "price" => 21.99,
+        "is_visible" => 1,
+        "productor" => "DC Comics",
+        "photo" => "https://picsum.photos/200/300"
+    ],
+    [
+        "name" => "Iron Man: Armatura Tecnologica",
+        "shop_id" => 1,
+        "description" => "Tony Stark usa la sua tecnologia avanzata per combattere minacce globali come Iron Man.",
+        "price" => 44.50,
+        "is_visible" => 0,
+        "productor" => "Marvel Comics",
+        "photo" => "https://picsum.photos/200/300"
+    ],
+    [
+        "name" => "Hulk: La Furia Verde",
+        "shop_id" => 1,
+        "description" => "Bruce Banner affronta la sua rabbia incontrollabile trasformandosi in Hulk.",
+        "price" => 37.25,
+        "is_visible" => 1,
+        "productor" => "Marvel Comics",
+        "photo" => "https://picsum.photos/200/300"
+    ],
+    [
+        "name" => "Aquaman: Sovrano degli Oceani",
+        "shop_id" => 1,
+        "description" => "Arthur Curry difende il regno sottomarino di Atlantide come Aquaman.",
+        "price" => 29.99,
+        "is_visible" => 1,
+        "productor" => "DC Comics",
+        "photo" => "https://picsum.photos/200/300"
+    ],
+    [
+        "name" => "Black Widow: La Vedova Nera",
+        "shop_id" => 1,
+        "description" => "Natasha Romanoff, la Vedova Nera, si imbarca in missioni segrete per lo S.H.I.E.L.D.",
+        "price" => 15.50,
+        "is_visible" => 0,
+        "productor" => "Marvel Comics",
+        "photo" => "https://picsum.photos/200/300"
+    ],
+    [
+        "name" => "Green Lantern: Guardiano dello Spazio",
+        "shop_id" => 1,
+        "description" => "Hal Jordan indossa l'anello dei Green Lantern per proteggere il cosmo da minacce extraterrestri.",
+        "price" => 27.75,
+        "is_visible" => 1,
+        "productor" => "DC Comics",
+        "photo" => "https://picsum.photos/200/300"
+    ],
+    [
+        "name" => "Captain America: Il Primo Vendicatore",
+        "shop_id" => 1,
+        "description" => "Steve Rogers diventa Captain America e combatte il nazismo durante la Seconda Guerra Mondiale.",
+        "price" => 19.95,
+        "is_visible" => 1,
+        "productor" => "Marvel Comics",
+        "photo" => "https://picsum.photos/200/300"
     ]
+
 ];
